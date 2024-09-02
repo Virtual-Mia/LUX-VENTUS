@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 
 * {
     margin: 0;
@@ -7,7 +7,10 @@
     text-decoration: none;
 }
 
-
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #f9f9f9;
+}
 
 .container {
     max-width: 1440px;
@@ -54,4 +57,122 @@
 
 .logo img {
     width: 234px;
+}
+
+/* 1section */
+
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    background: url(./assets/img/magazine.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 218px;
+    padding-bottom: 148px;
+    border-radius: 20px;
+    max-width: 1272px;
+    width: 100%;
+}
+
+
+.first-section h4{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+  
+}
+
+.first-section h1{
+    font-family: 'poppins';
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+  
+}
+
+.first-section span {
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.first-section p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 494px;
+}
+
+
+
+/* topics  */
+
+.topics-section{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 87px;
+}
+
+.topics-section h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #262626;
+
+
+}
+
+.topics-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.topic-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 85px;
+    width: max-content; 
+    padding: 51px 30px 30px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 6px 6px 3px #0000000D;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.topic-card:hover{
+    transform: translateY(-15px);
+}
+
+.topic-card:hover button{
+    background-color: black;
+    color: #4CE0D7;
+} 
+
+
+.topic-card button{
+    color: #262626;
+    padding: 10px 40px;
+    background-color: #4CE0D7;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    
+}
+
+.topic-card img{
+    width: 110px;
 }
