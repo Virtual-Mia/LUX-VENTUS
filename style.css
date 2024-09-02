@@ -7,3 +7,51 @@
     text-decoration: none;
 }
 
+
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 84px;
+}
+
+
+/* header  */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
+    background-color: red;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+
+.nav a{
+    padding: 8px 32px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+
+.nav a:hover{
+    border-radius: 40px;
+    background-color: #4CE0D7;
+}
+
+
+.nav img{
+    margin-left: 67px;
+}
+
+.logo img {
+    width: 234px;
+}
