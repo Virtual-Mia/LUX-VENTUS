@@ -176,3 +176,124 @@ body {
 .topic-card img{
     width: 110px;
 }
+
+/*line class*/
+
+.first-line {
+    border: 1px solid #BCBCBC;
+    align-items: center;
+    margin-bottom: 52.5px;
+}
+
+/* fashion section */
+
+.fashion-but a {
+    padding: 10px 82px;
+    background-color: #262626;
+    border-radius: 40px;
+    color: white;
+
+}
+
+.fashion-but {
+    background-image: url(./assets/img/pexels-sabrina-kennelly-1857000\ 1.png);
+    padding: 23.34px 922.4px 299px 47.27px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    box-shadow:  0px 6px 6px 0px #0000000D;
+    
+}
+
+.fashion-but:hover {
+    transform: translateY(-10px) ;
+}
+
+.author {
+    display: flex;
+   
+    align-items: center;
+    margin-left: 64px;
+    margin-top: 23px;
+    margin-bottom: 100px;
+}
+.author div  {
+    display: flex;
+    gap: 133px;
+    margin-left: 21px; 
+}
+
+.author p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color:#BCBCBC;
+}
+ .author h3 {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #F25E5E;
+    margin-left: 460px;
+ }
+
+
+ .author-post {
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+ }
+
+ .author-post h1{
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 23px;
+    
+
+ }
+ .author-post p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#262626;
+    width:850px;
+    margin-bottom: 30px;
+ }
+
+ .read-more a {
+    font-family: 'Poppins';
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.24em;
+text-align: left;
+color: #4CE0D7;
+text-align: center;
+display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    
+ }
+ .read-more {
+    margin-left: -15px;
+    margin-bottom:38px;
+ }
+
+ .read-more:hover {
+transform: translateX(10px); 
+}
