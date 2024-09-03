@@ -562,6 +562,9 @@ section{
     border-radius: 20px;
     background-color: #FFFFFF;
     margin-bottom: 48.72px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+
 }
 
 .first a {
