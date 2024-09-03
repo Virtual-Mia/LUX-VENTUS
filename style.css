@@ -297,3 +297,243 @@ display: flex;
  .read-more:hover {
 transform: translateX(10px); 
 }
+
+
+/* trending-section */
+
+
+.trending-title{
+    width: 370px;
+    height: 36px;
+  
+    margin-bottom: 55.04px;
+
+}
+.trending-title h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #262626;
+   
+}
+
+.trending-section{
+    margin-bottom: 88.2px;
+
+}
+   
+
+
+.trending-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 59.08px;
+}
+
+
+.trending-card{
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    width: max-content;
+    border-radius: 20px;
+    background-color:#FFFFFF ;
+    width: 579px;
+    height: 670px;
+   
+
+   
+}
+
+
+.trending-button a{
+    padding: 10px 50px;
+    border-radius: 40px;
+    background-color: #262626;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color:#FFFFFF;
+   
+}
+.trending-button-button  a{
+    padding: 10px 50px;
+    border-radius: 40px;
+    background-color: #262626;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+.trending-button a:hover{
+    background-color: white;
+    color: black;
+}
+
+.trending-button-button a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.trending-button{
+    background: url(./assets/img/Mask\ group\ \(20\).png);
+    padding: 20px 369px 219px 34px ;
+    width: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 579.02px;
+    height: 278.09px;
+   
+   
+   
+
+
+
+}
+.trending-button-button{
+    background: url(./assets/img/Mask\ group\ \(1\).png);
+    padding: 20px 369px 219px 34px ;
+    width: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 579.02px;
+    height: 278.09px;
+   
+   
+
+
+
+}
+
+
+
+
+.trending-first-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 28px;
+    margin-left: 26px;
+    margin-bottom: 28px;
+  
+}
+
+.trending-first-section img{
+    width: 65.67px;
+    height: 50.77px;
+}
+
+.trending-first-section h1{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color:#BCBCBC ;
+
+}
+.trending-first-section h2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #BCBCBC;
+    margin-right: 26px;
+    
+}
+
+.trnding-first-section-texts{
+    display: flex;
+    gap: 83px;
+}
+
+
+.trending-text-first{
+    width: 169px;
+    height: 21px;
+    margin-left: 28px;
+
+
+}
+
+
+.trending-text-second{
+    width: 167px;
+    height: 21px;  
+
+}
+
+
+
+.trending-title-one{
+    width: 471px;
+    height: 94px;  
+    margin-left: 33px;
+    margin-right: 60px;
+    margin-bottom: 2px;
+
+}
+
+.trending-title-one h4{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #262626;
+    max-width: 350px;
+
+}
+
+.trending-title-two{
+    width: 464px;
+    height: 98px;
+    margin-left:35px ;
+    margin-right:80px ;
+    margin-bottom: 30px;
+
+}
+.trending-title-two p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#262626 ;
+    width: 370px;
+
+}
+
+
+
+
+.trending-card-last-section a{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color:#4CE0D7 ;
+    margin-top: 33px;
+    margin-left: 22px;
+    margin-bottom:42px ;
+    cursor: pointer;
+
+
+
+}
