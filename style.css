@@ -537,3 +537,196 @@ transform: translateX(10px);
 
 
 }
+
+
+/* giga-section */
+section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 118px;
+}
+.giga-section{
+    display: flex;
+    max-width: 1204px;
+    height: 368px;
+    width: 100%;
+    margin-top: 88.2px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 48.72px;
+}
+
+.first a {
+    padding: 9.42px 52.96px 9.17px 51.86px;
+    text-decoration: none;
+    background-color: #262626; 
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffff;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.first a:hover {
+    background-color: #4CE0D7;
+    color: black;
+    
+}
+
+.first {
+    padding: 25.37px 337.55px 304.44px 34.14px;
+    background-image:url(./assets/img/Mask\ group\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 46px;
+    border-radius: 20px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35.66px;
+  margin-top: 25.6px;
+}
+
+.one img{
+    margin-right: 16.6px;
+    border-radius: 100%;
+}
+
+.one div{
+    width: max-content;
+    display: flex;
+    gap: 210px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCBCBC;    
+}
+
+
+.two h1{
+    width: 543px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 20px;
+    
+} 
+
+.two p {
+    width: 428.8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #262626;
+}
+
+.but{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color:#4CE0D7;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 19px;
+    margin-left: -10px;
+    margin-bottom: 31px;
+    cursor: pointer;
+}
+.first-two a{
+    padding: 9.42px 52.96px 9.17px 51.86px;
+    text-decoration: none;
+    background-color: #262626; 
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffff;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+ 
+}
+
+.first-two{
+    padding: 25.37px 337.55px 304.44px 34.14px;
+    background-image:url(./assets/img/pexels-evg-kowalievska-1381556\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 46px;
+    border-radius: 20px;
+}
+
+
+.first-three a{
+    padding: 9.42px 52.96px 9.17px 51.86px;
+    text-decoration: none;
+    background-color: #262626; 
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffff;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+ 
+}
+
+.first-three {
+    padding: 25.37px 337.55px 304.44px 34.14px;
+    background-image:url(./assets/img/pexels-vinicius-wiesehofer-4219918\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 46px;
+    border-radius: 20px;
+}
+
+
+
+.two h2{
+    color:#262626 ;
+    width: 370px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.first-two a:hover {
+    background-color: #4CE0D7;
+    color: black;
+}
+
+.two {
+    color: #262626;
+    width: 350px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.first-three a:hover {
+    background-color: #4CE0D7;
+    color: black;
+}
+   
+
+
+
+
+
+
+
