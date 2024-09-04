@@ -183,7 +183,11 @@ body {
     border: 1px solid #BCBCBC;
     align-items: center;
     margin-bottom: 52.5px;
+     margin-right: 87.5px ;
+    margin-left:85.5px ;
 }
+
+
 
 /* fashion section */
 
@@ -276,14 +280,14 @@ body {
 
  .read-more a {
     font-family: 'Poppins';
-font-size: 12px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0.24em;
-text-align: left;
-color: #4CE0D7;
-text-align: center;
-display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #4CE0D7;
+    text-align: center;
+    display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
@@ -297,3 +301,17 @@ display: flex;
  .read-more:hover {
 transform: translateX(10px); 
 }
+
+
+
+
+
+
+
+.fashion :hover {
+background-color: #f9f9f9;
+color: black;
+}
+
+
+
