@@ -219,6 +219,10 @@ body {
 
 }
 
+.fashion:hover{
+    transform: scale(1.05);
+}
+
 .fashion-but a {
     padding: 10px 82px;
     background-color: #262626;
