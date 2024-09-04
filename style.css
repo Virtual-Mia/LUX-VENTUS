@@ -49,9 +49,14 @@ body {
     background-color: #4CE0D7;
 }
 
+.nav img:hover{
+    transform: scale(1.2);
+}
+
 
 .nav img{
     margin-left: 67px;
+    cursor: pointer;
 }
 
 .logo img {
@@ -194,7 +199,8 @@ body {
     align-items: center;
     margin-bottom: 52.5px;
      margin-right: 87.5px ;
-    margin-left:85.5px ;
+    margin-left:85.5px;
+    
 }
 
 
@@ -205,6 +211,12 @@ body {
     max-width: 1204px;
     width: 100%;
     margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 97px;
+    padding-left: 32.5px;
+    
+
 }
 
 .fashion-but a {
@@ -443,13 +455,7 @@ color: black;
     border-radius: 20px;
     width: 579.02px;
     height: 278.09px;
-   
-   
-
-
-
 }
-
 
 
 
@@ -568,9 +574,10 @@ color: black;
     margin-left: 22px;
     margin-bottom:42px ;
     cursor: pointer;
+}
 
-
-
+.trending-card-last-section img:hover{
+    transform: translateX(10px);
 }
 
 
@@ -731,6 +738,10 @@ color: black;
     margin-bottom: 31px;
     cursor: pointer;
 }
+
+.but img:hover{
+    transform: translateX(10px);
+}
 .first-two a{
     padding: 9.42px 52.96px 9.17px 51.86px;
     text-decoration: none;
@@ -875,5 +886,6 @@ color: black;
 
 
 
+    
 
 
