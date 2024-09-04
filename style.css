@@ -677,6 +677,10 @@ color: black;
     border-radius: 20px;
 }
 
+.giga-section:hover{
+    transform: translateY(-15px);
+}
+
 .second {
     display: flex;
     flex-direction: column;
