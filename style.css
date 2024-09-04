@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     padding-top: 37px;
     padding-bottom: 47px;
-    background-color: red;
+    
 }
 
 .nav{
@@ -143,11 +143,18 @@ body {
     width: max-content; 
     padding: 51px 30px 30px 30px;
     background-color: #FFFFFF;
-    box-shadow: 3px 6px 6px 3px #0000000D;
+    box-shadow: 0px 6px 6px 0px #0000000D;
     align-items: center;
     border-radius: 20px;
     cursor: pointer;
     transition: .2s;
+}
+.topic-card h2{
+    color: #262626;
+    font-size: 20px;
+    font-weight: 700;
+    
+
 }
 
 .topic-card:hover{
@@ -307,11 +314,4 @@ transform: translateX(10px);
  
  .read-more a:hover {
     color: goldenrod;
- }
-
-
-.first-line {
-    margin-left: 85.5px;
-    margin-right: 87.5px;
 }
-
