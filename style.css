@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     padding-top: 37px;
     padding-bottom: 47px;
-    
+    background-color: red;
 }
 
 .nav{
@@ -143,18 +143,11 @@ body {
     width: max-content; 
     padding: 51px 30px 30px 30px;
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 6px 0px #0000000D;
+    box-shadow: 3px 6px 6px 3px #0000000D;
     align-items: center;
     border-radius: 20px;
     cursor: pointer;
     transition: .2s;
-}
-.topic-card h2{
-    color: #262626;
-    font-size: 20px;
-    font-weight: 700;
-    
-
 }
 
 .topic-card:hover{
@@ -190,7 +183,11 @@ body {
     border: 1px solid #BCBCBC;
     align-items: center;
     margin-bottom: 52.5px;
+     margin-right: 87.5px ;
+    margin-left:85.5px ;
 }
+
+
 
 /* fashion section */
 
@@ -290,14 +287,14 @@ body {
 
  .read-more a {
     font-family: 'Poppins';
-font-size: 12px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0.24em;
-text-align: left;
-color: #4CE0D7;
-text-align: center;
-display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #4CE0D7;
+    text-align: center;
+    display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
@@ -309,9 +306,28 @@ display: flex;
  }
 
  .read-more:hover {
+
+transform: translateX(10px); 
+}
+
+
+
+
+
+
+
+.fashion :hover {
+background-color: #f9f9f9;
+color: black;
+}
+
+
+
+=======
 transform: translateX(10px);
  }
  
  .read-more a:hover {
     color: goldenrod;
 }
+
