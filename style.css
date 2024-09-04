@@ -195,6 +195,15 @@ body {
 
 }
 
+.fashion-but a:hover {
+    transform:translate3d(0.2s);
+    color:black;
+    background-color: white;
+   
+}
+
+
+
 .fashion-but {
     background-image: url(./assets/img/pexels-sabrina-kennelly-1857000\ 1.png);
     padding: 23.34px 922.4px 299px 47.27px;
@@ -208,9 +217,7 @@ body {
     
 }
 
-.fashion-but:hover {
-    transform: translateY(-10px) ;
-}
+
 
 .author {
     display: flex;
@@ -295,5 +302,16 @@ display: flex;
  }
 
  .read-more:hover {
-transform: translateX(10px); 
+transform: translateX(10px);
+ }
+ 
+ .read-more a:hover {
+    color: goldenrod;
+ }
+
+
+.first-line {
+    margin-left: 85.5px;
+    margin-right: 87.5px;
 }
+
